@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.top-section{
+    background-image: url(./images/designer_1\(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom ;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.main-header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 0;
+    align-items: center;
+}
+.main-header a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.main-header nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-header nav ul li a{
+    font-size: 14px;
+    color: 505F98;
+    font-weight: 400;
+}
+.logo{
+    justify-self: center;
+}
+.logo a{
+    font-size: 26px;
+    font-weight: 700px;
+}
+.btn{
+    justify-self: right;
+}
+.btn a{
+    font-size: 12px;
+    width: 500px;
+    padding: 15px 60px;
+    background-color: #111B47;
+    color: #ffff;
+    border-radius: 2px;
+}
+.section-hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 300px 0;
+}
+.hero-content h1{
+    color: #091133;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.hero-content p{
+    color: #091133;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero-btn{
+    justify-self: left;
+}
+.hero-btn a {
+    font-weight: 500px;
+    text-decoration: none;
+    color: white;
+}
+.btn2{
+    justify-self: left;
+    
+}
+.btn2 a {
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #091133;
+    color: #091133;
+    font-weight: 500;
+    font-size: 16px;
+}
